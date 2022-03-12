@@ -1,0 +1,8 @@
+.header__lang {
+    list-style: none;
+    display: flex;
+    gap: 18px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 6px;
+}
