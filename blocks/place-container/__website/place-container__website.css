@@ -3,11 +3,10 @@
     margin-bottom: 48px;
 }
   
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
   .place-container__website {
     max-width: 288px;
     max-height: 46px;
-    margin-left: 16px;
     margin-bottom: 0;
   }
 }

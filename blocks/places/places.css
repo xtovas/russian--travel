@@ -1,25 +1,27 @@
 .places {
     display: flex;
     flex-direction: column;
-   max-width: 984px;
+    max-width: 984px;
+    margin-top: 92px;
 }
   
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
     .places {
         margin-top: 92px;
         max-width: 928px;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
   .places {
     max-width: 720px;
     margin-top: 0;
   }
 }
  
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
   .places {
-    max-width: 320px;
+    min-width: 320px;
+    margin-top: 0;
   }
 }

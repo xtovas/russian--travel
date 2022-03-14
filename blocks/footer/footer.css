@@ -7,21 +7,23 @@
     margin-bottom: 24px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
   .footer {
-    max-width: 928px;
+    min-width: 928px;
+    margin-left: 48px;
+    margin-right: 48px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
   .footer {
     max-width: 720px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
     .footer {
-      max-width: 186px;
+      min-width: 186px;
       min-height: 310px;
       margin-left: 16px;
       flex-direction: column;

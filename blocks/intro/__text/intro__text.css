@@ -8,15 +8,15 @@
     line-height: 163%;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
     .intro__text {
     max-width: 720px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
     .intro__text {
-    max-width: 288px;
+    min-width: 288px;
     max-height: 520px;
   }
 }
