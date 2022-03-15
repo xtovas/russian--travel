@@ -37,5 +37,6 @@
     grid-template-rows: repeat(12, 1fr);
     row-gap: 12px;
     min-width: 288px;
+    margin-bottom: 0;
     }
 }
