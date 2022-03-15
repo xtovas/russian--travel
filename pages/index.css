@@ -30,7 +30,7 @@
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);
 
 /*places*/
-@import url(/blocks/places/places.css);
+@import url(../blocks/places/places.css);
 
 /*place-container*/
 @import url(../blocks/place-container/place-container.css);
